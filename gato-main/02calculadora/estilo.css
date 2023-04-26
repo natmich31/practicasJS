@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    body{
+        text-align: center;
+        background: rgb(238,174,202);
+        background: pink(circle, rgba(238,174,202,1) 0%, rgba(18,60,111,1) 100%);
+    }
+    button{
+          height: 50px;
+          width: 90px;
+          background-color: plum
+        }
+        
