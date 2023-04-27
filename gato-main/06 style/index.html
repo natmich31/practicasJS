@@ -4,39 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>STYLE</title>
+    <title>Style</title>
+    <img src="/gato-main/img/nat.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+    06 SWEET ALERT
     <style>
-       body{
-        text-align: center;
-       } 
-       div{
-       
-        display:block;
-        border: 2px solid burlywood;
-        margin:auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-       }
-       
+        *{
+
+        transition: 2s ease all;
+        }
+        body{
+            text-align: center;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            display: block;
+            border: 2px solid royalblue;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
 </head>
 <body onload="cambiar()">
-    <H1>CAMBIAR ESTILO CON JS</H1>
-    Color Fondo: <input type="color" id="color" onechange="cambiar()" value="#FF000"><br>
-    Color Texto: <input type="color" id="colort"  onechange="cambiar()"value="#FF00F"><br>
-    Figura: <select name="figura" id="figura" onechange="cambiar()">
-        <option value="1">Cuadro</option>
-        <option value="2">Circulo</option>
-        </select><br><br><br>
-        Texo:
-        <input type="text" id="texto" onkeyup="cambiar()" value="Hola"><br>
-        Ancho: <input type="range" id="ancho" onchange="cambiar()" min="1" max="500" value="100" id="v"><br>
-        <h1 id="valor">0</h1>
-        Alto: <input type="range" id="alto" onchange="cambiar()" min="1" max="500" value="100" id="v" ><br>
-        <h1 id="valor">0</h1>
-        <br><br>
+    <h1>Cambiar Estilo con js</h1><hr>
+color fondo: <input type="color" id="color" onchange="cambiar()"value="#FF0000"><br>
+color texto: <input type="color" id="colort" onchange="cambiar()"value="#FFFFFF"><br>
+ figura :<select name="figura" id="figura" onchange="cambiar()">
+<option value="1">cuadro</option>
+<option value="2">circulo</option>
+</select><br>
+TEXTO:
+<input type="text" id="texto" onkeyup="cambiar()"value="hola"><br>
+ANCHO:<input type="range" id="ancho" onchange="cambiar()"min="1" max="500"value="100"><span id="vancho">100</span><br>
+
+ALTO:<input type="range" id="alto" onchange="cambiar()"min="1" max="500"value="100"><span id="valto">100</span><br>
+<br><br>
     <div id="item">HOLA</div>
-    <script src="app.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
