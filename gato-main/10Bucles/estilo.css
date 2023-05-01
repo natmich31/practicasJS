@@ -1,0 +1,14 @@
+*{
+    margin: Opx;
+    padding: Opx;
+    }
+    div#res{
+    width: 500px;
+    height: 500px;
+    background: hotpink;
+    }
+    .cajita{
+    display: inline-block;
+    background: mediumaquamarine;
+    margin:5px;
+    }
